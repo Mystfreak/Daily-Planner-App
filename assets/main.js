@@ -12,14 +12,24 @@ currentDay.html(currentTime);
 let blockArr = []
 let eventArr = []
 
-// for loop for Time Blocks - Counter starts at 8: meaning 8am
-for(let i = 8; i <= 17; i++){
+function createSchedule() {
 
-    //create row to create calender
-    let hourRow = $('<div>');
-    hourRow.addClass('row');
-    timeBlockCont.append(hourBar);
+    // for loop for Time Blocks - Counter starts at 8: meaning 8am
+    for(let i = 8; i <= 17; i++){
+
+        //create row to create calender
+        let hourRow = $('<div>');
+        hourRow.addClass('row');
+        timeBlockCont.append(hourRow);
+
+        // hour labels for the row
+        let hourLabel = $('<div>');
+        hourLabel.text([i] + ':00');
+        hourLabel.addClass('col-1 hour');
+        hourRow.append(hourLabel);
+        
 
 
 
+    }
 }
