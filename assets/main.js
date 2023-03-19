@@ -5,6 +5,9 @@ let currentDay = $("#currentDay")
 // variable from HTML
 let timeBlockCont = $("#timeBlocks");
 
+//display current time
+currentDay.html(currentTime);
+
 //Arrays to store events
 let blockArr = []
 let eventArr = []
@@ -16,5 +19,7 @@ for(let i = 8; i <= 17; i++){
     let hourRow = $('<div>');
     hourRow.addClass('row');
     timeBlockCont.append(hourBar);
-    
+
+
+
 }
