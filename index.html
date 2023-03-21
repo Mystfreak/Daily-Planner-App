@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,15 +30,13 @@
     </header>
     <!-- added button to clear calendar -->
     <button id="clearBtn">Clear Schedule</button>
-    
-    <!-- notify the user message has been added to local storage -->
-    <p class="hideMessage style" id="saved-message">
-      Appointment added to <code>local storage </code>
-      <i class="green fa-solid fa-check"></i>
-    </p>
 
     <div id= "timeBlocks" class="container">
       <!-- Timeblocks go here -->
+      <p class="hideMessage style" id="saved-message">
+        Appointment added to <code>local storage </code>
+        <i class="green fa-solid fa-check"></i>
+      </p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,27 +1,59 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: system-ui, "-apple-system";
   font-size: 16px;
   line-height: 1;
 }
 
 textarea {
   background: transparent;
-  background-color: #77dd77;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border: 1px solid black;
   padding: 10px;
-  min-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+textarea:focus {
+  background-color: #efefef;
+  border: 2px solid #000000;
+  outline: none;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  background-color: rgb(138, 138, 138);
+  background-color: #efefef;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 3px solid black;
+}
+
+.lead {
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.text-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-block:hover,
+.text-block:focus-within {
+  transform: scale(1.02);
 }
 
 .description {
@@ -40,50 +72,61 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffdd00;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border: 1px dashed #000000;
+  height: 100%;
+  width: 100px;
+  font-size: large;
+  font-weight: 500;
 }
 
 .past {
   background-color: #d3d3d3;
-  color: rgb(0, 0, 0, 0.5);
+  color: black;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
-  font-weight: 700;
+  background-color: #ff8235;
+  color: black;
 }
 
 .future {
-  background-color: #77dd77;
-  color: rgb(0, 0, 0);
+  background-color: #b298ff;
+  color: black;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-  padding: 10px;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
-
-span.hour {
+  background-color: #ffdd00;
+  color: rgb(255, 255, 255);
+  height: 100%;
   width: 100px;
+  font-size: 25px;
 }
 
-footer {
-  text-align: center;
-  padding: 40px;
+.saveBtn:hover i,
+.saveBtn:focus i {
+  color: #000000;
 }
 
-#currentDay {
-  font-size: 2rem;
+.saveBtn:focus {
+  outline: none;
+  border: 2px solid rgb(226, 0, 0);
+}
+
+.hideMessage {
+  visibility: hidden;
+  color: #b10a01;
+}
+code {
+  color: #b10a01;
+}
+.green {
+  color: #074407;
 }
