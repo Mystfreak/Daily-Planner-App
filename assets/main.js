@@ -37,7 +37,7 @@ for (let i = hours.start; i <= hours.end; i++) {
   );
   textAreaBlock.append(label).html(`<span class="hour">${hourDisplay}</span>`);
   textAreaBlock.append(textArea);
-  textAreaBlock.append(btnSave);
+  textAreaBlock.append(saveBtn);
 
   let timeCurrent = moment().format("H");
 
