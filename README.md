@@ -32,3 +32,4 @@ Starter code provided by Trilogy education
 Please refer to the repo for the license information.
 
 # Link to the live site:
+[Deployment link](https://mystfreak.github.io/Daily-Planner-App/)
