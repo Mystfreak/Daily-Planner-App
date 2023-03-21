@@ -22,7 +22,7 @@ Save the event in local storage when the save button is clicked in that timebloc
 Persist events between refreshes of a page.
 
 # Screenshots
-
+![Image](planner.png)
 
 
 # Credits
