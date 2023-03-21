@@ -71,3 +71,11 @@ function displaySavedMessage() {
     displayMessage.toggleClass("hideMessage");
   }, 2000);
 }
+
+// clear schedule by clicking on button
+$('#clearBtn').click(function(event){
+
+    localStorage.clear();
+    location.reload()
+    return;
+})
