@@ -20,3 +20,15 @@ Allow a user to enter an event when they click a timeblock.
 Save the event in local storage when the save button is clicked in that timeblock.
 
 Persist events between refreshes of a page.
+
+# Screenshots
+
+
+
+# Credits
+Starter code provided by Trilogy education 
+
+# License
+Please refer to the repo for the license information.
+
+# Link to the live site:
