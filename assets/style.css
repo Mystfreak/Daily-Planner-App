@@ -75,7 +75,7 @@ textarea:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffdd00;
+  background-color: #00db42e0;
   color: #000000;
   border: 1px dashed #000000;
   height: 100%;
@@ -90,12 +90,12 @@ textarea:focus {
 }
 
 .present {
-  background-color: #ff8235;
+  background-color: #c40707;
   color: black;
 }
 
 .future {
-  background-color: #b298ff;
+  background-color: #0fb417;
   color: black;
 }
 
@@ -103,7 +103,7 @@ textarea:focus {
   border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #ffdd00;
+  background-color: #0a0da3;
   color: rgb(255, 255, 255);
   height: 100%;
   width: 100px;
